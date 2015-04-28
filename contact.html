@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>my portfolio</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>YEN<a href="index.html">PORTFOLIO</a></h1><p align="center" style="letter-spacing:13px">A DESIGNER</p></div>
+      <hr>
+      <nav class="nav">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="about.html">about me</a></li>
+          <li><a href="portfolio.html">my portfolio</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li class="current"><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="content" style="margin:100px 140px">
+        <h1><a href="url#123">Contact</a></h1>
+<form id="contact" action="contact.html" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="your_name" value="" /></p>
+            <p><span>Email Address</span><input class="contact" type="text" name="your_email" value="" /></p>
+            <p><span>Message</span><textarea class="contact textarea" rows="5" cols="50" name="your_message"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p><a href="index.html"><name="#123">home</name></a> | <a href="about.html">about me</a> | <a href="portfolio.html">my portfolio</a> | <a href="blog.html">blog</a> | <a href="contact.html">contact</a></p>
+      <p>&copy; 2014 my portfolio. All Rights Reserved. | design from Yen Zy</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>

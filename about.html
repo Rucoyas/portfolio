@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>my portfolio</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h1>YEN<a href="index.html">PORTFOLIO</a></h1><p align="center" style="letter-spacing:13px">A DESIGNER</p></div>
+      <hr>
+      <nav class="nav">
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li class="current"><a href="about.html">about me</a></li>
+          <li><a href="portfolio.html">my portfolio</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+      <img width="350" height="350" src="images/me_circle.png" style="margin:50px 175px"/>
+      </div>
+      <div id="content">
+        <h1>About Me</h1>
+        <p>Currently studying Interaction Design at Republic Polytechnic, Singapore. I have a big passion for creating useful and beautiful stuff, while constantly trying to learn and improve in the process.</p>
+        <p style="margin-top:50px"><strong><em>" You can design and create, and build the most wonderful place in the world. But it takes people to make the dream a reality. "
+——Walt Disney</em></strong> </p>
+      </div>
+    </div>
+    <footer>
+      <p><a href="index.html">home</a> | <a href="about.html">about me</a> | <a href="portfolio.html">my portfolio</a> | <a href="blog.html">blog</a> | <a href="contact.html">contact</a></p>
+      <p>&copy; 2014 my portfolio. All Rights Reserved. | design from Yen Zy</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
